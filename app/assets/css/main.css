@@ -1,2 +1,28 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+:root {
+--ui-bg: var(--ui-color-neutral-50);
+--ui-text: var(--ui-color-neutral-900);
+}
+
+.dark {
+/* 主背景色 - 深灰色 */
+--ui-bg: #0a0a0a;
+/* 卡片/组件背景色 - 稍浅的深灰色 */
+--ui-bg-elevated: #1a1a1a;
+/* 主要文本色 - 浅灰色 */
+--ui-text: #e5e5e5;
+/* 次要文本色 - 中灰色 */
+--ui-text-muted: #a3a3a3;
+/* 边框色 - 深灰色 */
+--ui-border: #262626;
+/* 聚焦色 - 保持主色调 */
+--ui-focus: var(--ui-color-primary-500);
+/* 悬停背景色 - 稍亮的深灰色 */
+--ui-bg-hover: #1f1f1f;
+/* 输入框背景色 - 稍浅的深灰色 */
+--ui-bg-input: #1a1a1a;
+/* 输入框边框色 */
+--ui-border-input: #404040;
+}
