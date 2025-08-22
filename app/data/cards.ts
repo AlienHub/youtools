@@ -8,6 +8,7 @@ export interface Card {
   updateTime?: Date
   description?: string
   customIcon?: string
+  size?: 'small' | 'medium' | 'large' // 1格、2格、3格
 }
 
 export interface CardGroup {
@@ -78,6 +79,7 @@ export const cardGroups: CardGroup[] = [
         showIcon: true,
         showUpdateTime: true,
         updateTime: new Date('2025-08-22T16:00:00'),
+        size: 'medium', // 占用2格
       },
       {
         title: '快速阅读HTML报告',
@@ -104,7 +106,8 @@ export const cardGroups: CardGroup[] = [
         showIcon: true,
         showUpdateTime: true,
         updateTime: new Date('2025-08-22T16:00:00'),
-        customIcon: 'https://ice.pindo.life/icon.png'
+        customIcon: 'https://ice.pindo.life/icon.png',
+        size: 'large', // 占用3格
       },
       {
         title: 'NotchBin 灵动岛',
