@@ -177,15 +177,34 @@ export const searchCards = (query: string) => {
   })).filter(group => group.cards.length > 0)
 }
 
+// 社交媒体链接配置
+export interface SocialLink {
+  id: string
+  name: string
+  url: string
+  icon: string
+  color?: string
+}
+
 // 页面配置
 export interface PageConfig {
   title: string
   description: string
+  socialLinks?: SocialLink[]
 }
 
 export const pageConfig: PageConfig = {
   title: "👋 NiHaoooooo",
-  description: "分享任何有趣的内容。"
+  description: "分享任何有趣的内容。",
+  socialLinks: [
+    {
+      id: 'xiaohongshu',
+      name: 'xiaohongshu',
+      url: 'https://www.xiaohongshu.com/user/profile/62a027220000000021022915',
+      icon: 'simple-icons:xiaohongshu',
+      color: 'hover:text-red-500'
+    }
+  ]
 }
 
 // 获取页面配置

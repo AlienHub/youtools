@@ -2,9 +2,18 @@
   <UContainer class="py-16">
     <div class="space-y-6">
       <!-- 标题区域 -->
-      <div data-node-id="17:2" class="flex flex-col gap-2">
-        <h1 class="text-[44px] leading-[52.8px] tracking-[-2px] text-[var(--color-gray-900)] dark:text-[var(--y-dark-text-primary)] font-semibold">{{ pageConfig.title }}</h1>
-        <p class="opacity-50 text-[var(--color-gray-900)] dark:text-[var(--y-dark-text-primary)] text-[20px] leading-7">{{ pageConfig.description }}</p>
+      <div data-node-id="17:2" class="flex items-center justify-between gap-6">
+        <div class="flex flex-col gap-2">
+          <h1 class="text-[44px] leading-[52.8px] tracking-[-2px] text-[var(--color-gray-900)] dark:text-[var(--y-dark-text-primary)] font-semibold">{{ pageConfig.title }}</h1>
+          <p class="opacity-50 text-[var(--color-gray-900)] dark:text-[var(--y-dark-text-primary)] text-[20px] leading-7">{{ pageConfig.description }}</p>
+        </div>
+        
+        <!-- 社交媒体链接 -->
+        <YSocialLinks 
+          v-if="pageConfig.socialLinks && pageConfig.socialLinks.length > 0"
+          :social-links="pageConfig.socialLinks"
+          class="flex-shrink-0"
+        />
       </div>
 
       <!-- 分组卡片 -->
@@ -42,6 +51,7 @@
 
 <script setup lang="ts">
 import YCard from '~/components/YCard.vue'
+import YSocialLinks from '~/components/YSocialLinks.vue'
 import { cardGroups, pageConfig } from '~/data/cards'
 
 // 使用配置文件中的数据
