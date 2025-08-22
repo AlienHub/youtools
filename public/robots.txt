@@ -1,2 +1,8 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://youtools.com/sitemap.xml
+
+# 爬取延迟（可选）
+Crawl-delay: 1

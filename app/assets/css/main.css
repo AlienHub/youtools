@@ -1,28 +1,51 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+/* 自定义主题颜色变量 */
 :root {
---ui-bg: var(--ui-color-neutral-50);
+    --y-dark-bg : #121212;
+    --y-dark-bg-surface: #1E1E1E;
+    --y-dark-border: #2E2E2E;
+    --y-dark-text-primary: #E0E0E0;
+    --y-dark-text-secondary: #A6A6A6;
+    --y-dark-disabled: #5A5A5A;
+
+    /* 覆盖gary */
+    --color-gray-50: #FAFAFA;
+    --color-gray-100: #F0F0F0;
+    --color-gray-200: #D9D9D9;
+    --color-gray-300: #BFBFBF;
+    --color-gray-400: #A6A6A6;
+    --color-gray-500: #8C8C8C;
+    --color-gray-600: #737373;
+    --color-gray-700: #595959;
+    --color-gray-800: #404040;
+    --color-gray-900: #262626;
+}
+
+
+:root {
+--ui-bg: var(--color-white);
 --ui-text: var(--ui-color-neutral-900);
 }
 
 .dark {
 /* 主背景色 - 深灰色 */
---ui-bg: #0a0a0a;
+--ui-bg: var(--y-dark-bg);
 /* 卡片/组件背景色 - 稍浅的深灰色 */
---ui-bg-elevated: #1a1a1a;
+--ui-bg-elevated: var(--y-dark-bg-surface);
 /* 主要文本色 - 浅灰色 */
---ui-text: #e5e5e5;
+--ui-text: var(--y-dark-text-primary);
 /* 次要文本色 - 中灰色 */
---ui-text-muted: #a3a3a3;
+--ui-text-muted: var(--y-dark-text-secondary);
 /* 边框色 - 深灰色 */
---ui-border: #262626;
+--ui-border: var(--y-dark-border);
 /* 聚焦色 - 保持主色调 */
 --ui-focus: var(--ui-color-primary-500);
 /* 悬停背景色 - 稍亮的深灰色 */
---ui-bg-hover: #1f1f1f;
+--ui-bg-hover: var(--y-dark-bg-surface);
 /* 输入框背景色 - 稍浅的深灰色 */
---ui-bg-input: #1a1a1a;
+--ui-bg-input: var(--y-dark-bg-surface);
 /* 输入框边框色 */
---ui-border-input: #404040;
+--ui-border-input: var(--y-dark-border);
 }
