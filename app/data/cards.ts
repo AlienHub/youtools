@@ -87,6 +87,14 @@ export const cardGroups: CardGroup[] = [
         showUpdateTime: true,
         updateTime: new Date('2025-08-22T16:00:00'),
       },
+      {
+        title: 'AI 日程助手',
+        link: 'https://www.icloud.com/shortcuts/8654c724d406411898db75f61084386d',
+        linkName: '获取快捷指令',
+        showIcon: true,
+        showUpdateTime: true,
+        updateTime: new Date('2025-08-23T21:00:00'),
+      }
     ]
   ),
 
