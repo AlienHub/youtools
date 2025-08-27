@@ -29,17 +29,23 @@
 
           <!-- 分组卡片网格 -->
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
-            <YCard 
+            <div 
               v-for="card in group.cards" 
               :key="card.id"
-              :title="card.title"
-              :link="card.link"
-              :link-name="card.linkName"
-              :show-icon="card.showIcon"
-              :show-update-time="card.showUpdateTime"
-              :update-time="card.updateTime"
-              :icon-src="card.customIcon"
-            />
+              :class="card.shrink === 2 ? 'sm:col-span-2 md:col-span-2 lg:col-span-2' : ''"
+            >
+              <YCard 
+                :title="card.title"
+                :link="card.link"
+                :link-name="card.linkName"
+                :show-icon="card.showIcon"
+                :show-update-time="card.showUpdateTime"
+                :update-time="card.updateTime"
+                :icon-src="card.customIcon"
+                :shrink="card.shrink"
+                :side="card.side"
+              />
+            </div>
           </div>
         </div>
       </div>
