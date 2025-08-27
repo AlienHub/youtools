@@ -13,6 +13,7 @@
     "@iconify-json/simple-icons": "^1.2.48",
     "@nuxt/icon": "^2.0.0",
     "@nuxt/ui": "4.0.0-alpha.0",
+    "@vueuse/nuxt": "13.7.0",
     "nuxt": "^4.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
