@@ -81,6 +81,25 @@ export const getNextCardId = () => nextCardId
 export const cardGroups: CardGroup[] = [
   createGroup(
     {
+      id: 'autoCap',
+      title: 'AutoCap',
+      description: '自动记录、框选记录、手动截图一应俱全，更好用的截图浏览器插件。',
+    },
+    [
+      {
+        title: 'AutoCap',
+        link: 'https://chromewebstore.google.com/detail/autocap-%E7%82%B9%E5%87%BB%E8%AE%B0%E5%BD%95%E5%B7%A5%E5%85%B7/fbopkjfadlbmilalkfccmkigacggafnd',
+        linkName: '安装 AutoCap',
+        showIcon: true,
+        showUpdateTime: true,
+        updateTime: new Date('2025-12-06T16:00:00'),
+        customIcon: 'https://download.pindo.life/autocap-icon.png'
+      }
+    ]
+  ),
+  // 快捷指令
+  createGroup(
+    {
       id: 'shortcuts',
       title: '快捷指令',
       description: '简单好用的快捷指令',
@@ -279,6 +298,15 @@ export const cardGroups: CardGroup[] = [
         title: 'Ice 导航栏软件',
         link: 'https://download.pindo.life/ice.dmg',
         linkName: '下载 Ice 中文版',
+        showIcon: true,
+        showUpdateTime: true,
+        updateTime: new Date('2025-08-22T16:00:00'),
+        customIcon: 'https://ice.pindo.life/icon.png'
+      },
+      {
+        title: 'Ice - MacOS26 测试版',
+        link: 'https://download.pindo.life/Ice.zip',
+        linkName: '🚧无中文🚧',
         showIcon: true,
         showUpdateTime: true,
         updateTime: new Date('2025-08-22T16:00:00'),
