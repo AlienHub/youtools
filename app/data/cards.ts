@@ -324,7 +324,7 @@ export const cardGroups: CardGroup[] = [
         title: 'BLEUnlock',
         link: 'https://github.com/ts1/BLEUnlock/releases/download/1.12.2/BLEUnlock-1.12.2.zip',
         linkName: '下载 BLEUnlock',
-        showIcon: false,
+        showIcon: true,
         showUpdateTime: true,
         updateTime: new Date('2025-12-22T19:57:00')
       }
