@@ -1,0 +1,10 @@
+title: 👋 NiHaoooooo
+description: 分享任何有趣的内容。
+
+socialLinks:
+  - id: xiaohongshu
+    name: xiaohongshu
+    url: https://www.xiaohongshu.com/user/profile/62a027220000000021022915
+    icon: simple-icons:xiaohongshu
+    color: hover:text-red-500
+

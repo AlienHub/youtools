@@ -14,9 +14,15 @@
     "@nuxt/icon": "^2.0.0",
     "@nuxt/ui": "4.0.0-alpha.0",
     "@vueuse/nuxt": "13.7.0",
+    "js-yaml": "^4.1.1",
+    "marked": "^17.0.1",
     "nuxt": "^4.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "pnpm@9.3.0+sha1.d4f1da7af76dbdb4ab1a08f6b5add602ffad6fd4"
+  "packageManager": "pnpm@9.3.0+sha1.d4f1da7af76dbdb4ab1a08f6b5add602ffad6fd4",
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@types/js-yaml": "^4.0.9"
+  }
 }

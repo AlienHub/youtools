@@ -9,10 +9,7 @@
       },
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2.1,
-      "position": [
-        -368,
-        -80
-      ],
+      "position": [-368, -80],
       "id": "8e97fb5b-bb01-4e80-a72f-6729ab906aae",
       "name": "Webhook",
       "webhookId": "0956468b-5cf8-4b14-a6af-3b8502d185c3"
@@ -27,10 +24,7 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
-      "position": [
-        272,
-        -80
-      ],
+      "position": [272, -80],
       "id": "ddf14e60-f401-4a41-bf05-764f71121c27",
       "name": "AI Agent"
     },
@@ -45,10 +39,7 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [
-        272,
-        128
-      ],
+      "position": [272, 128],
       "id": "88ddd474-cd60-401d-bc49-7e1fd04c4fac",
       "name": "OpenAI Chat Model",
       "credentials": {
@@ -74,10 +65,7 @@
       },
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [
-        -128,
-        -80
-      ],
+      "position": [-128, -80],
       "id": "96e8f50a-4beb-4ba0-af60-d08543d19f05",
       "name": "微信公众号内容获取"
     },
@@ -88,10 +76,7 @@
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [
-        112,
-        -80
-      ],
+      "position": [112, -80],
       "id": "21559195-df49-425b-a9bd-3e6c6c2b4b09",
       "name": "文本提取解析"
     }
@@ -109,9 +94,7 @@
       ]
     },
     "AI Agent": {
-      "main": [
-        []
-      ]
+      "main": [[]]
     },
     "OpenAI Chat Model": {
       "ai_languageModel": [
@@ -152,3 +135,4 @@
     "instanceId": "d6480a2a6de221b9d79a55002b272cb99a06eb75b284f7aaeacd4ffc89527a1f"
   }
 }
+

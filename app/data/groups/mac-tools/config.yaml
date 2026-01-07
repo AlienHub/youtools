@@ -1,0 +1,34 @@
+title: Mac工具
+description: 收集记录一些好用的Mac工具
+
+cards:
+  - title: Ice 导航栏软件
+    link: https://download.pindo.life/ice.dmg
+    linkName: 下载 Ice 中文版
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+    customIcon: https://ice.pindo.life/icon.png
+
+  - title: Ice - MacOS26 测试版
+    link: https://download.pindo.life/Ice.zip
+    linkName: 🚧无中文🚧
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+    customIcon: https://ice.pindo.life/icon.png
+
+  - title: NotchBin 灵动岛
+    link: https://download.pindo.life/NotchBin.dmg
+    linkName: 下载 NotchBin 中文版
+    showIcon: false
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+
+  - title: BLEUnlock
+    link: https://github.com/ts1/BLEUnlock/releases/download/1.12.2/BLEUnlock-1.12.2.zip
+    linkName: 下载 BLEUnlock
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-12-22T19:57:00
+

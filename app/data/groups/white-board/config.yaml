@@ -1,0 +1,12 @@
+title: 白板软件
+description: 收集记录一些好用的白板软件
+
+cards:
+  - title: Excalidraw
+    link: https://excalidraw.com/
+    linkName: Excalidraw
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+    description: Excalidraw
+

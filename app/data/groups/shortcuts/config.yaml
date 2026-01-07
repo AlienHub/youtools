@@ -1,0 +1,40 @@
+title: 快捷指令
+description: 简单好用的快捷指令
+
+cards:
+  - title: Auto验证码
+    link: https://www.icloud.com/shortcuts/685e9f6668704d06be65ebd11a2a0172
+    linkName: 获取快捷指令
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+
+  - title: 快速阅读HTML报告
+    link: https://www.icloud.com/shortcuts/ba4b41a98dda4fb39bf65f003f3c4ac3
+    linkName: 获取快捷指令
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+
+  - title: AI 日程助手
+    link: https://www.icloud.com/shortcuts/8654c724d406411898db75f61084386d
+    linkName: 获取快捷指令
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-23T21:00:00
+
+  - title: AI 公众号总结
+    link: https://www.icloud.com/shortcuts/3fb21248693746299029b51977a6f11f
+    linkName: 获取快捷指令
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-27T10:30:00
+    shrink: 2
+    side:
+      title: 获取 N8N 工作流
+      buttonName: 复制工作流
+      action:
+        type: copy
+        # 工作流内容从 n8n-workflow.json 文件加载
+        valueFile: n8n-workflow.json
+
