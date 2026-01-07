@@ -1,0 +1,18 @@
+title: 飞机
+description: 出发起飞
+
+cards:
+  - title: FlClash
+    link: https://github.com/chen08209/FlClash/releases/download/v0.8.91/FlClash-0.8.91-macos-arm64.dmg
+    linkName: 下载 FlClash
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2026-01-07T16:00:00
+
+  - title: Clash Verge
+    link: https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.4/Clash.Verge_2.4.4_aarch64.dmg
+    linkName: 下载 Clash Verge
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2025-08-22T16:00:00
+
