@@ -35,16 +35,14 @@
                   </span>
                 </div>
                 <!-- 查看笔记按钮 -->
-                <button 
+                <UButton 
+                  variant="link"
+                  color="neutral"
                   v-if="group.notes"
                   @click="openNotes(group)"
-                  class="group/notes flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 bg-blue-50 dark:bg-blue-950/30 hover:bg-blue-100 dark:hover:bg-blue-950/50 rounded-lg transition-all duration-200 border border-blue-200/50 dark:border-blue-800/50"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform group-hover/notes:scale-110" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
-                  </svg>
                   查看说明
-                </button>
+                </UButton>
               </div>
 
               <!-- 分组卡片网格 -->

@@ -20,7 +20,7 @@ useHead({
     { property: 'og:title', content: 'NiHaoooooo - 分享任何有趣的内容' },
     { property: 'og:description', content: '分享任何有趣的内容。一个简洁的工具箱，收集各种有用的工具和资源。' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://youtools.com' }, // 请替换为你的实际域名
+    { property: 'og:url', content: 'https://pindo.life' }, // 请替换为你的实际域名
     { property: 'og:image', content: '/og-image.jpg' }, // 请添加你的 OG 图片
     
     // Twitter Card 标签
