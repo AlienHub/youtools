@@ -3,23 +3,23 @@ description: 收集记录一些好用的Mac工具
 
 cards:
   - title: Ice 导航栏软件
-    link: https://download.pindo.life/ice.dmg
+    link: https://download.pindo.page/ice.dmg
     linkName: 下载 Ice 中文版
     showIcon: true
     showUpdateTime: true
     updateTime: 2025-08-22T16:00:00
-    customIcon: https://ice.pindo.life/icon.png
+    customIcon: https://ice.pindo.page/icon.png
 
   - title: Ice - MacOS26 测试版
-    link: https://download.pindo.life/Ice.zip
+    link: https://download.pindo.page/Ice.zip
     linkName: 🚧无中文🚧
     showIcon: true
     showUpdateTime: true
     updateTime: 2025-08-22T16:00:00
-    customIcon: https://ice.pindo.life/icon.png
+    customIcon: https://ice.pindo.page/icon.png
 
   - title: NotchBin 灵动岛
-    link: https://download.pindo.life/NotchBin.dmg
+    link: https://download.pindo.page/NotchBin.dmg
     linkName: 下载 NotchBin 中文版
     showIcon: false
     showUpdateTime: true
@@ -31,4 +31,3 @@ cards:
     showIcon: true
     showUpdateTime: true
     updateTime: 2025-12-22T19:57:00
-

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://youtools.com/sitemap.xml
+Sitemap: https://pindo.page/sitemap.xml
 
 # 爬取延迟（可选）
 Crawl-delay: 1
