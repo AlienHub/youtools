@@ -18,6 +18,13 @@ cards:
     updateTime: 2025-08-22T16:00:00
     customIcon: https://ice.pindo.page/icon.png
 
+  - title: Thaw
+    link: https://download.pindo.page/Thaw_1.2.0.zip
+    linkName: 下载 Thaw
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2026-04-13T21:47:00
+
   - title: NotchBin 灵动岛
     link: https://download.pindo.page/NotchBin.dmg
     linkName: 下载 NotchBin 中文版
