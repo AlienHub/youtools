@@ -1,0 +1,10 @@
+title: Skill分享
+description: 分享我的 GitHub Skill 项目
+
+cards:
+  - title: WeChat Copy
+    link: https://github.com/AlienHub/wechat-copy
+    linkName: AlienHub/wechat-copy
+    showIcon: true
+    showUpdateTime: true
+    updateTime: 2026-06-23T00:00:00
