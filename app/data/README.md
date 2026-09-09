@@ -154,26 +154,14 @@ A: 在设置中点击"检查更新"
 
 ### 显示效果
 
-- 笔记会显示在分组标题下方
-- 默认折叠，点击"📝 查看详细说明"展开
+- 在分享页点击分组旁的「使用说明」，进入独立阅读页
+- 说明页适配手机，可通过「全部分享」返回资源列表
 - 支持深色模式
 - 响应式设计，适配各种屏幕
 
 ## 页面配置
 
-编辑 `page-config.yaml` 可修改页面全局配置：
-
-```yaml
-title: 👋 页面标题
-description: 页面描述
-
-socialLinks:
-  - id: xiaohongshu
-    name: xiaohongshu
-    url: https://www.xiaohongshu.com/...
-    icon: simple-icons:xiaohongshu
-    color: hover:text-red-500
-```
+个人介绍、社交链接和作品信息在 `app/data/profile.ts` 中维护。原 `page-config.yaml` 保留为旧站配置，不再控制新首页。
 
 ## 注意事项
 
