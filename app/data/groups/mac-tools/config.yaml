@@ -3,7 +3,7 @@ description: 收集记录一些好用的Mac工具
 
 cards:
   - title: Ice 导航栏软件
-    link: https://download.pindo.page/ice.dmg
+    link: https://share.pindo.page/ice.dmg
     linkName: 下载 Ice 中文版
     showIcon: true
     showUpdateTime: true
@@ -11,7 +11,7 @@ cards:
     customIcon: https://ice.pindo.page/icon.png
 
   - title: Ice - MacOS26 测试版
-    link: https://download.pindo.page/Ice.zip
+    link: https://share.pindo.page/Ice.zip
     linkName: 🚧无中文🚧
     showIcon: true
     showUpdateTime: true
@@ -19,14 +19,14 @@ cards:
     customIcon: https://ice.pindo.page/icon.png
 
   - title: Thaw
-    link: https://download.pindo.page/Thaw_1.2.0.zip
+    link: https://share.pindo.page/Thaw_1.2.0.zip
     linkName: 下载 Thaw
     showIcon: true
     showUpdateTime: true
     updateTime: 2026-04-13T21:47:00
 
   - title: NotchBin 灵动岛
-    link: https://download.pindo.page/NotchBin.dmg
+    link: https://share.pindo.page/NotchBin.dmg
     linkName: 下载 NotchBin 中文版
     showIcon: false
     showUpdateTime: true
